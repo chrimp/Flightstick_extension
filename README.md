@@ -22,12 +22,13 @@ Toliss A320 Family와 터틀비치 벨로시티원 플라이트스틱용 Lua 스
 - FlyWithLua\Scripts 폴더 안에 'please read the manual.lua' 파일을 삭제합니다.
 
 ### 스크립트 설치/조이스틱 설정
-[스크립트 다운로드]()
+[스크립트 다운로드](https://github.com/chrimp/Flightstick_extension/releases/download/23-07-11/TolissFS.lua)
 - 'TolissFS.lua' 파일을 FlyWithLua\Scripts 폴더 안에 복사합니다.
-- (방법 1) X-Plane을 실행하고, 설정 -> Joystick에서 버튼을 설정합니다.
+- (방법 1) X-Plane을 실행하고, 설정 -> Joystick에서 아래의 사진대로 버튼을 설정합니다.
 
 ![조이스틱 설정](Bindings_KR.jpg)
-- (방법 2) [설정파일 다운로드]() 설정 파일을 다운로드 하여 X-Plane 12\Output\preferences 폴더 안에 복사합니다.
+- (방법 2) [설정파일 다운로드](https://github.com/chrimp/Flightstick_extension/releases/download/23-07-11/X-Plane.Joystick.Settings.zip) 압축 파일을 다운로드 합니다.
+- 압축 파일 내부의 'X-Plane Joystick Settings.prf' 파일을 X-Plane 12\Output\preferences 폴더 안에 복사합니다.
 
 (방법 2 사용시 기존 조이스틱 설정이 사라지므로 주의해주세요.)
 
@@ -47,15 +48,15 @@ This is a Lua script for Toliss A320 Family on Turtle Beach VelocityOne Flightst
 ## Installation
 ### FlyWithLua Installation
 [FlyWithLua NG+ Official Thread](https://forums.x-plane.org/index.php?/files/file/82888-flywithlua-ng-next-generation-plus-edition-for-x-plane-12-win-lin-mac/)
-[Script Download]()
 - Copy 'FlyWithLua' folder in the zip file to X-Plane 12\Resources\plugins\ folder.
 - Delete 'please read the manual.lua' file in FlyWithLua\Scripts folder.
 ### Script Installation/Joystick Configuration
-[Script Download]()
+[Script Download](https://github.com/chrimp/Flightstick_extension/releases/download/23-07-11/TolissFS.lua)
 - Copy 'TolissFS.lua' file to FlyWithLua\Scripts folder.
-- (Method 1) Run X-Plane and configure buttons in Settings -> Joystick.
+- (Method 1) Run X-Plane and configure buttons as shown in below image in Settings -> Joystick.
 
 ![Joystick Configuration](Bindings.jpg)
-- (Method 2) [Download configuration file]() and copy it to X-Plane 12\Output\preferences folder.
+- (Method 2) [Download configuration file](https://github.com/chrimp/Flightstick_extension/releases/download/23-07-11/X-Plane.Joystick.Settings.zip) Download the zip file.
+- Copy 'X-Plane Joystick Settings.prf' file in the zip file to X-Plane 12\Output\preferences folder.
 
 (If you use Method 2, your existing joystick configuration will be overwritten.)
