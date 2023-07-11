@@ -1,4 +1,4 @@
-[Download Link](#https://github.com/chrimp/Flightstick_extension/releases)
+[Download Link](https://github.com/chrimp/Flightstick_extension/releases)
 
 [한국어](#한국어)  
 [English](#English)
