@@ -137,7 +137,7 @@ if PLANE_ICAO == "A20N" and PLANE_AUTHOR == "Gliding Kiwi" then
             if button(340) then
                 command_once("toliss_airbus/vs_push")
             elseif button(342) then
-                command_once("AirbusFBW/PullVSSel")
+                vertical_speed = 0
             end
         end
     end
