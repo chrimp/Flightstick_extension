@@ -11,10 +11,15 @@ Toliss A320 Family와 터틀비치 벨로시티원 플라이트스틱용 Lua 스
 - 스포일러 ARM
 - FLX/MCT Detent
 - TO/GA Detent
-- 트림 휠을 통한 FCU (속도, 방위, 고도, 상승/하강률) 제어
+- 트림 휠을 통한 FCU (속도, 방위, 고도, 상승/하강률), 엘레베이터 트림 제어
 - FCU 노브 누르기/당기기
+- 가운데 휠 조작시 양 옆 버튼 비활성화 (오조작 방지)
 
-[기능 소개/설치 가이드](https://youtu.be/ooHXa0mzt3g)
+[기능 소개/설치 가이드](https://youtu.be/ooHXa0mzt3g)  
+(2024-03-13 추가)  
+Base의 6, 7, 8, 9 버튼은 각각 속도, 헤딩, 고도, VS 조작을 활성화합니다.  
+Top의 9번 버튼은 엘레베이터 트림 조작을 활성화합니다.
+
 
 ## 설치 방법
 
@@ -24,6 +29,8 @@ Toliss A320 Family와 터틀비치 벨로시티원 플라이트스틱용 Lua 스
 - FlyWithLua\Scripts 폴더 안에 'please read the manual.lua' 파일을 삭제합니다.
 
 ### 스크립트 설치/조이스틱 설정
+모든 설정은 조이스틱이 **왼손 모드**로 설정된 기준입니다.
+
 [스크립트 다운로드](https://github.com/chrimp/Flightstick_extension/releases/download/23-07-11/TolissFS.lua)
 - 'TolissFS.lua' 파일을 FlyWithLua\Scripts 폴더 안에 복사합니다.
 - (방법 1) X-Plane을 실행하고, 설정 -> Joystick에서 아래의 사진대로 버튼을 설정합니다.
@@ -42,10 +49,14 @@ This is a Lua script for Toliss A320 Family on Turtle Beach VelocityOne Flightst
 - Spoilers ARM
 - FLX/MCT Detent
 - TO/GA Detent
-- FCU (Speed, Heading, Altitude, Vertical Speed) control with trim wheel
+- FCU (Speed, Heading, Altitude, Vertical Speed), elevator trim control with trim wheel
 - FCU knob push/pull
+- Disables two buttons next to the center wheel when rotating the wheel (preventing unintentional trigger)
 
-[Feature Overview/Installation Guide](https://youtu.be/ooHXa0mzt3g)
+[Feature Overview/Installation Guide (Subtitles available)](https://youtu.be/ooHXa0mzt3g)  
+(Added March 13, 2024)  
+Button 6, 7, 8, and 9 on the Base enables Speed, Heading, Altitude, V/S control each.  
+Button 9 on the Top enables Elevator Trim control.
 
 ## Installation
 ### FlyWithLua Installation
@@ -53,6 +64,8 @@ This is a Lua script for Toliss A320 Family on Turtle Beach VelocityOne Flightst
 - Copy 'FlyWithLua' folder in the zip file to X-Plane 12\Resources\plugins\ folder.
 - Delete 'please read the manual.lua' file in FlyWithLua\Scripts folder.
 ### Script Installation/Joystick Configuration
+All mappings are based on the **Left Orientation** mode.
+
 [Script Download](https://github.com/chrimp/Flightstick_extension/releases/download/23-07-11/TolissFS.lua)
 - Copy 'TolissFS.lua' file to FlyWithLua\Scripts folder.
 - (Method 1) Run X-Plane and configure buttons as shown in below image in Settings -> Joystick.
