@@ -31,13 +31,13 @@ Top의 9번 버튼은 엘레베이터 트림 조작을 활성화합니다.
 ### 스크립트 설치/조이스틱 설정
 모든 설정은 조이스틱이 **왼손 모드**로 설정된 기준입니다.
 
-[스크립트 다운로드](https://github.com/chrimp/Flightstick_extension/releases/download/23-07-11/TolissFS.lua)
+[스크립트 다운로드](https://github.com/chrimp/Flightstick_extension/releases/download/24-03-13/TolissFS.lua)
 - 'TolissFS.lua' 파일을 FlyWithLua\Scripts 폴더 안에 복사합니다.
 - (방법 1) X-Plane을 실행하고, 설정 -> Joystick에서 아래의 사진대로 버튼을 설정합니다.
 
 ![조이스틱 설정](Bindings_KR.jpg)
-- (방법 2) [설정파일 다운로드](https://github.com/chrimp/Flightstick_extension/releases/download/23-07-11/X-Plane.Joystick.Settings.zip) 압축 파일을 다운로드 합니다.
-- 압축 파일 내부의 'X-Plane Joystick Settings.prf' 파일을 X-Plane 12\Output\preferences 폴더 안에 복사합니다.
+- (방법 2) [설정파일 다운로드](https://github.com/chrimp/Flightstick_extension/releases/download/24-03-13/X-Plane.Joystick.Settings.prf) 파일을 다운로드 합니다.
+- 다운로드 받은 'X-Plane Joystick Settings.prf' 파일을 X-Plane 12\Output\preferences 폴더 안에 복사합니다.
 
 (방법 2 사용시 기존 조이스틱 설정이 사라지므로 주의해주세요.)
 
@@ -66,12 +66,12 @@ Button 9 on the Top enables Elevator Trim control.
 ### Script Installation/Joystick Configuration
 All mappings are based on the **Left Orientation** mode.
 
-[Script Download](https://github.com/chrimp/Flightstick_extension/releases/download/23-07-11/TolissFS.lua)
+[Script Download](https://github.com/chrimp/Flightstick_extension/releases/download/24-03-13/TolissFS.lua)
 - Copy 'TolissFS.lua' file to FlyWithLua\Scripts folder.
 - (Method 1) Run X-Plane and configure buttons as shown in below image in Settings -> Joystick.
 
 ![Joystick Configuration](Bindings.jpg)
-- (Method 2) [Download configuration file](https://github.com/chrimp/Flightstick_extension/releases/download/23-07-11/X-Plane.Joystick.Settings.zip) Download the zip file.
-- Copy 'X-Plane Joystick Settings.prf' file in the zip file to X-Plane 12\Output\preferences folder.
+- (Method 2) [Download configuration file](https://github.com/chrimp/Flightstick_extension/releases/download/24-03-13/X-Plane.Joystick.Settings.prf) Download the file.
+- Copy 'X-Plane Joystick Settings.prf' file to X-Plane 12\Output\preferences folder.
 
 (If you use Method 2, your existing joystick configuration will be overwritten.)
