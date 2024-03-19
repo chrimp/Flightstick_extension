@@ -1,4 +1,15 @@
-if PLANE_ICAO == "A20N" and PLANE_AUTHOR == "Gliding Kiwi" then
+planes_ICAO = ["A319", "A20N", "A321", "A21N"]
+
+local is_supported = false
+for i = 1, #planes_ICAO do
+    if PLANE_ICAO == planes_ICAO[i] then
+        is_supported = true
+        break
+    end
+end
+
+
+if is_supported and PLANE_AUTHOR == "Gliding Kiwi" then
 
     set("toliss_airbus/joystick/throttle/mctDetentRatio", 1.0)
 
